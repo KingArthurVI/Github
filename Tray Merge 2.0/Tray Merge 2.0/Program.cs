@@ -15,22 +15,22 @@ namespace Tray_Merge_2._0
 
                 if (tray.pLength > 300 && tray.pWidth > 125)
                 {
-                    Console.WriteLine("Large Tray");
+                    Console.WriteLine("Large Tray. Product " + tray.pLength + "mm long. " + tray.pWidth + "mm wide. " + tray.pHeight + "mm high.");     // Fint å kunne oppgi produktets forskjellige lengde, høyde og bredde
                 }
 
                 else if (tray.pLength <= 300 && tray.pWidth <= 125)
                 {
-                    Console.WriteLine("Small Tray");
+                    Console.WriteLine("Small Tray Product " + tray.pLength + "mm long. " + tray.pWidth + "mm wide. " + tray.pHeight + "mm high.");
                 }
 
                 else if (tray.pLength > 300 && tray.pWidth <= 125)                // Om produktet er langt, men ikke bredt blir det lagt på et stort brett
                 {
-                    Console.WriteLine("Large Tray");
+                    Console.WriteLine("Large Tray Product " + tray.pLength + "mm long. " + tray.pWidth + "mm wide. " + tray.pHeight + "mm high.");
                 }
 
                 else if (tray.pLength <= 300 && tray.pWidth > 125)                // Om produktet er kort, men bredt blir det lagt på et stort brett
                 {
-                    Console.WriteLine("Large Tray");
+                    Console.WriteLine("Large Tray Product " + tray.pLength + "mm long. " + tray.pWidth + "mm wide. " + tray.pHeight + "mm high.");
                 }
                 tray = new Tray();
                 Thread.Sleep(1000);
@@ -41,10 +41,27 @@ namespace Tray_Merge_2._0
                 Console.WriteLine("Light barrier broken");
             }
 
-            else if ()
+            else if (tray.pLength == 497 || tray.pWidth == 247 || tray.pHeight == 347)
             {
-
+                Console.WriteLine("Conveying time");
             }
+
+            else if (tray.pLength == 498 || tray.pWidth == 248 || tray.pHeight == 348)
+            {
+                Console.WriteLine("Tray wrong turned on track");
+            }
+
+            else if (tray.pLength == 499 || tray.pWidth == 249 || tray.pHeight == 349)
+            {
+                Console.WriteLine("Scanner read to low");
+            }
+
+            else if (tray.pLength == 500 || tray.pWidth == 500 || tray.pHeight == 500)
+            {
+                Console.WriteLine("Product not turned. Product read " + tray.pLength + "mm long. " + tray.pWidth + "mm wide. " + tray.pHeight + "mm high." );
+            }
+
+            Console.WriteLine("Write OK "); 
         }       
     }   
     class Tray
