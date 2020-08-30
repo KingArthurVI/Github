@@ -95,10 +95,11 @@ namespace Tray_Merge_2._0
 
         public static void lightBarrier()
         {
-            while ()
+
+            do
             {
 
-            }
+            } while ()
         }
 
         public static string randomS(int length)
