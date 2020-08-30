@@ -18,22 +18,22 @@ namespace Tray_Merge_2._0
 
                 if (tray.pLength > 300 && tray.pWidth > 175)
                 {
-                    Console.WriteLine("Large Tray. Product " + tray.pLength + "mm long. " + tray.pWidth + "mm wide. " + tray.pHeight + "mm high. " + "Barcode ");  Console.Write(randomS(20));     // Fint å kunne oppgi produktets forskjellige lengde, høyde og bredde
+                    Console.WriteLine("Large Tray: Product " + tray.pLength + "mm long, " + tray.pWidth + "mm wide, " + tray.pHeight + "mm high, " + "TrayCode " + randomS(12));      // Fint å kunne oppgi produktets forskjellige lengde, høyde og bredde
                 }
 
                 else if (tray.pLength <= 300 && tray.pWidth <= 175)
                 {
-                    Console.WriteLine("Small Tray. Product " + tray.pLength + "mm long. " + tray.pWidth + "mm wide. " + tray.pHeight + "mm high. ");
+                    Console.WriteLine("Small Tray: Product " + tray.pLength + "mm long, " + tray.pWidth + "mm wide, " + tray.pHeight + "mm high, " + "TrayCode " + randomS(12));
                 }
 
                 else if (tray.pLength > 300 && tray.pWidth <= 175)                // Om produktet er langt, men ikke bredt blir det lagt på et stort brett
                 {
-                    Console.WriteLine("Large Tray. Product " + tray.pLength + "mm long. " + tray.pWidth + "mm wide. " + tray.pHeight + "mm high. ");
+                    Console.WriteLine("Large Tray: Product " + tray.pLength + "mm long, " + tray.pWidth + "mm wide, " + tray.pHeight + "mm high, " + "TrayCode " + randomS(12));
                 }
 
                 else if (tray.pLength <= 300 && tray.pWidth > 175)                // Om produktet er kort, men bredt blir det lagt på et stort brett
                 {
-                    Console.WriteLine("Large Tray. Product " + tray.pLength + "mm long. " + tray.pWidth + "mm wide. " + tray.pHeight + "mm high. ");
+                    Console.WriteLine("Large Tray: Product " + tray.pLength + "mm long, " + tray.pWidth + "mm wide, " + tray.pHeight + "mm high, " + "TrayCode " + randomS(12));
                 }
                 tray = new Tray();
                 Thread.Sleep(1000);
@@ -42,10 +42,12 @@ namespace Tray_Merge_2._0
             if (tray.pLength == 496 || tray.pWidth == 246 || tray.pHeight == 346)
             {
                 Console.WriteLine("Light barrier broken ");
+
             }
 
             else if (tray.pLength == 497 || tray.pWidth == 247 || tray.pHeight == 347)
             {
+                Thread.Sleep(2000);
                 Console.WriteLine("Conveying time ");
             }
 
@@ -64,7 +66,7 @@ namespace Tray_Merge_2._0
                 Console.WriteLine("Product not turned. Product read " + tray.pLength + "mm long. " + tray.pWidth + "mm wide. " + tray.pHeight + "mm high." );
             }
             
-                Console.WriteLine("Restart Enter 'OK' ");
+                Console.WriteLine("Resume Tray Merge Enter 'OK' ");
                     programResume();
         }
 
@@ -89,6 +91,14 @@ namespace Tray_Merge_2._0
                 
             }
             Main();
+        }
+
+        public static void lightBarrier()
+        {
+            while ()
+            {
+
+            }
         }
 
         public static string randomS(int length)
