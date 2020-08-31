@@ -24,3 +24,16 @@ C:\Users\JohnArthur Borgen\Desktop\John Arthur Koding Jobb\GitRepo\Github\Tray M
 C:\Users\JohnArthur Borgen\Desktop\John Arthur Koding Jobb\GitRepo\Github\Tray Merge 2.0\Tray Merge 2.0\obj\Debug\netcoreapp3.1\Tray Merge 2.0.dll
 C:\Users\JohnArthur Borgen\Desktop\John Arthur Koding Jobb\GitRepo\Github\Tray Merge 2.0\Tray Merge 2.0\obj\Debug\netcoreapp3.1\Tray Merge 2.0.pdb
 C:\Users\JohnArthur Borgen\Desktop\John Arthur Koding Jobb\GitRepo\Github\Tray Merge 2.0\Tray Merge 2.0\obj\Debug\netcoreapp3.1\Tray Merge 2.0.genruntimeconfig.cache
+C:\Users\jab19\Desktop\Programering\Github\Tray Merge 2.0\Tray Merge 2.0\bin\Debug\netcoreapp3.1\Tray Merge 2.0.exe
+C:\Users\jab19\Desktop\Programering\Github\Tray Merge 2.0\Tray Merge 2.0\bin\Debug\netcoreapp3.1\Tray Merge 2.0.deps.json
+C:\Users\jab19\Desktop\Programering\Github\Tray Merge 2.0\Tray Merge 2.0\bin\Debug\netcoreapp3.1\Tray Merge 2.0.runtimeconfig.json
+C:\Users\jab19\Desktop\Programering\Github\Tray Merge 2.0\Tray Merge 2.0\bin\Debug\netcoreapp3.1\Tray Merge 2.0.runtimeconfig.dev.json
+C:\Users\jab19\Desktop\Programering\Github\Tray Merge 2.0\Tray Merge 2.0\bin\Debug\netcoreapp3.1\Tray Merge 2.0.dll
+C:\Users\jab19\Desktop\Programering\Github\Tray Merge 2.0\Tray Merge 2.0\bin\Debug\netcoreapp3.1\Tray Merge 2.0.pdb
+C:\Users\jab19\Desktop\Programering\Github\Tray Merge 2.0\Tray Merge 2.0\obj\Debug\netcoreapp3.1\Tray Merge 2.0.csprojAssemblyReference.cache
+C:\Users\jab19\Desktop\Programering\Github\Tray Merge 2.0\Tray Merge 2.0\obj\Debug\netcoreapp3.1\Tray Merge 2.0.AssemblyInfoInputs.cache
+C:\Users\jab19\Desktop\Programering\Github\Tray Merge 2.0\Tray Merge 2.0\obj\Debug\netcoreapp3.1\Tray Merge 2.0.AssemblyInfo.cs
+C:\Users\jab19\Desktop\Programering\Github\Tray Merge 2.0\Tray Merge 2.0\obj\Debug\netcoreapp3.1\Tray Merge 2.0.csproj.CoreCompileInputs.cache
+C:\Users\jab19\Desktop\Programering\Github\Tray Merge 2.0\Tray Merge 2.0\obj\Debug\netcoreapp3.1\Tray Merge 2.0.dll
+C:\Users\jab19\Desktop\Programering\Github\Tray Merge 2.0\Tray Merge 2.0\obj\Debug\netcoreapp3.1\Tray Merge 2.0.pdb
+C:\Users\jab19\Desktop\Programering\Github\Tray Merge 2.0\Tray Merge 2.0\obj\Debug\netcoreapp3.1\Tray Merge 2.0.genruntimeconfig.cache

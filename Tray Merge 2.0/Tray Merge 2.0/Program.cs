@@ -18,7 +18,11 @@ namespace Tray_Merge_2._0
 
                 if (tray.pLength > 300 && tray.pWidth > 175)
                 {
+<<<<<<< Updated upstream
                     Console.WriteLine("Large tray: Product " + tray.pLength + "mm long, " + tray.pWidth + "mm wide, " + tray.pHeight + "mm high, " + "TrayCode " + randomS(12));      // Fint å kunne oppgi produktets forskjellige lengde, høyde og bredde
+=======
+                    Console.WriteLine("Large Tray. Product " + tray.pLength + "mm long. " + tray.pWidth + "mm wide. " + tray.pHeight + "mm high. " + "Traycode");  Console.Write(randomS(20));     // Fint å kunne oppgi produktets forskjellige lengde, høyde og bredde
+>>>>>>> Stashed changes
                 }
 
                 else if (tray.pLength <= 300 && tray.pWidth <= 175)

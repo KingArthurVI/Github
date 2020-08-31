@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\JohnArthur Borgen\\.nuget\\packages\\": {}
+    "C:\\Users\\jab19\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JohnArthur Borgen\\Desktop\\John Arthur Koding Jobb\\GitRepo\\Github\\Tray Merge 2.0\\Tray Merge 2.0\\Tray Merge 2.0.csproj",
+      "projectUniqueName": "C:\\Users\\jab19\\Desktop\\Programering\\Github\\Tray Merge 2.0\\Tray Merge 2.0\\Tray Merge 2.0.csproj",
       "projectName": "Tray Merge 2.0",
-      "projectPath": "C:\\Users\\JohnArthur Borgen\\Desktop\\John Arthur Koding Jobb\\GitRepo\\Github\\Tray Merge 2.0\\Tray Merge 2.0\\Tray Merge 2.0.csproj",
-      "packagesPath": "C:\\Users\\JohnArthur Borgen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JohnArthur Borgen\\Desktop\\John Arthur Koding Jobb\\GitRepo\\Github\\Tray Merge 2.0\\Tray Merge 2.0\\obj\\",
+      "projectPath": "C:\\Users\\jab19\\Desktop\\Programering\\Github\\Tray Merge 2.0\\Tray Merge 2.0\\Tray Merge 2.0.csproj",
+      "packagesPath": "C:\\Users\\jab19\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jab19\\Desktop\\Programering\\Github\\Tray Merge 2.0\\Tray Merge 2.0\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\JohnArthur Borgen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jab19\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
