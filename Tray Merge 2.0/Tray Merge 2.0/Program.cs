@@ -18,11 +18,7 @@ namespace Tray_Merge_2._0
 
                 if (tray.pLength > 300 && tray.pWidth > 175)
                 {
-<<<<<<< Updated upstream
                     Console.WriteLine("Large tray: Product " + tray.pLength + "mm long, " + tray.pWidth + "mm wide, " + tray.pHeight + "mm high, " + "TrayCode " + randomS(12));      // Fint å kunne oppgi produktets forskjellige lengde, høyde og bredde
-=======
-                    Console.WriteLine("Large Tray. Product " + tray.pLength + "mm long. " + tray.pWidth + "mm wide. " + tray.pHeight + "mm high. " + "Traycode");  Console.Write(randomS(20));     // Fint å kunne oppgi produktets forskjellige lengde, høyde og bredde
->>>>>>> Stashed changes
                 }
 
                 else if (tray.pLength <= 300 && tray.pWidth <= 175)
@@ -96,7 +92,7 @@ namespace Tray_Merge_2._0
             Main();
         }
 
-        public static void lightBarrier()
+        public static void lightBarrier()           //Denne metoden gjør at du må trykke på 'L' eller'l' 4 ganger før man starter igjen. litt som at du må vri nøkkelen en 4-6 ganger
         {
             Console.WriteLine("Light barrier broken ");
 
@@ -143,29 +139,53 @@ namespace Tray_Merge_2._0
         public static void scannerReset()
         {
             int scanP;
-            scanP = sca.Next(0, 95);
+            scanP = sca.Next(0, 95);           
+            int key = 0;
+
             Console.WriteLine("Scanner read low");
-            Console.WriteLine("Press 'V' to check reading level...");
-            Console.WriteLine("Press 'R' to reset the scanner...");
-
-            ConsoleKeyInfo S = Console.ReadKey();
-            if (S.KeyChar == 'V' || S.KeyChar == 'v')
+            while (key < 2)
             {
-                Console.WriteLine("Standard scanner level < 95%");
-                Console.WriteLine("Scanner level" + scanP + "%");
+                Console.WriteLine("Press 'V' to check reading level");
+                Console.WriteLine("Press 'R' to reset the scanner");
+                Console.WriteLine("Press 'E' to exit and resume...");
+
+                switch (key)
+                {                   
+                    case 1:
+                        Console.WriteLine("Standard scanner level < 95%");
+                        Console.WriteLine("Scanner level" + scanP + "%");
+                        break;
+
+                    case 2:
+                        Console.WriteLine("Scanner was reset");
+                        break;
+                        
+                    case 3:
+                        Console.WriteLine("Unknown command");
+                        break;
+
+                }
+                ConsoleKeyInfo S = Console.ReadKey();
+                if (S.KeyChar == 'V' || S.KeyChar == 'v')
+                {
+                    key++;
+                }
+
+                else if (S.KeyChar == 'R' || S.KeyChar == 'r')
+                {
+                    key += 2;
+                }
+
+                else if (S.KeyChar == 'E' || S.KeyChar == 'e')
+                {
+                    Main();
+                }
+                else
+                {
+                    key += 3;
+                }
+
             }
-
-            else if (S.KeyChar == 'R' || S.KeyChar == 'r')
-            {
-                Console.WriteLine("Scanner was reset");
-            }
-
-            else
-            {
-                Console.WriteLine("Unknown command");
-            }
-
-
         
         }
         public static string randomS(int length)
