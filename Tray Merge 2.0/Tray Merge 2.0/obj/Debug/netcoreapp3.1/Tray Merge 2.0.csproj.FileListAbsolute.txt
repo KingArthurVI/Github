@@ -37,3 +37,16 @@ C:\Users\jab19\Desktop\Programering\Github\Tray Merge 2.0\Tray Merge 2.0\obj\Deb
 C:\Users\jab19\Desktop\Programering\Github\Tray Merge 2.0\Tray Merge 2.0\obj\Debug\netcoreapp3.1\Tray Merge 2.0.dll
 C:\Users\jab19\Desktop\Programering\Github\Tray Merge 2.0\Tray Merge 2.0\obj\Debug\netcoreapp3.1\Tray Merge 2.0.pdb
 C:\Users\jab19\Desktop\Programering\Github\Tray Merge 2.0\Tray Merge 2.0\obj\Debug\netcoreapp3.1\Tray Merge 2.0.genruntimeconfig.cache
+C:\Users\jborgen\Documents\Work\Github\Tray Merge 2.0\Tray Merge 2.0\bin\Debug\netcoreapp3.1\Tray Merge 2.0.exe
+C:\Users\jborgen\Documents\Work\Github\Tray Merge 2.0\Tray Merge 2.0\bin\Debug\netcoreapp3.1\Tray Merge 2.0.deps.json
+C:\Users\jborgen\Documents\Work\Github\Tray Merge 2.0\Tray Merge 2.0\bin\Debug\netcoreapp3.1\Tray Merge 2.0.runtimeconfig.json
+C:\Users\jborgen\Documents\Work\Github\Tray Merge 2.0\Tray Merge 2.0\bin\Debug\netcoreapp3.1\Tray Merge 2.0.runtimeconfig.dev.json
+C:\Users\jborgen\Documents\Work\Github\Tray Merge 2.0\Tray Merge 2.0\bin\Debug\netcoreapp3.1\Tray Merge 2.0.dll
+C:\Users\jborgen\Documents\Work\Github\Tray Merge 2.0\Tray Merge 2.0\bin\Debug\netcoreapp3.1\Tray Merge 2.0.pdb
+C:\Users\jborgen\Documents\Work\Github\Tray Merge 2.0\Tray Merge 2.0\obj\Debug\netcoreapp3.1\Tray Merge 2.0.csprojAssemblyReference.cache
+C:\Users\jborgen\Documents\Work\Github\Tray Merge 2.0\Tray Merge 2.0\obj\Debug\netcoreapp3.1\Tray Merge 2.0.AssemblyInfoInputs.cache
+C:\Users\jborgen\Documents\Work\Github\Tray Merge 2.0\Tray Merge 2.0\obj\Debug\netcoreapp3.1\Tray Merge 2.0.AssemblyInfo.cs
+C:\Users\jborgen\Documents\Work\Github\Tray Merge 2.0\Tray Merge 2.0\obj\Debug\netcoreapp3.1\Tray Merge 2.0.csproj.CoreCompileInputs.cache
+C:\Users\jborgen\Documents\Work\Github\Tray Merge 2.0\Tray Merge 2.0\obj\Debug\netcoreapp3.1\Tray Merge 2.0.dll
+C:\Users\jborgen\Documents\Work\Github\Tray Merge 2.0\Tray Merge 2.0\obj\Debug\netcoreapp3.1\Tray Merge 2.0.pdb
+C:\Users\jborgen\Documents\Work\Github\Tray Merge 2.0\Tray Merge 2.0\obj\Debug\netcoreapp3.1\Tray Merge 2.0.genruntimeconfig.cache

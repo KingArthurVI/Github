@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Witron Login 2.0", "Witron Login 2.0\Witron Login 2.0.csproj", "{5FC9FF15-04C5-4DAC-872C-F12EE507C3B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FC9FF15-04C5-4DAC-872C-F12EE507C3B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FC9FF15-04C5-4DAC-872C-F12EE507C3B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FC9FF15-04C5-4DAC-872C-F12EE507C3B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FC9FF15-04C5-4DAC-872C-F12EE507C3B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA372C89-6010-4929-B37C-94C5BF42BE2E}
+	EndGlobalSection
+EndGlobal

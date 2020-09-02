@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jborgen\\Documents\\Work\\Github\\Tray Merge 2.0\\Tray Merge 2.0\\Tray Merge 2.0.csproj",
-      "projectName": "Tray Merge 2.0",
-      "projectPath": "C:\\Users\\jborgen\\Documents\\Work\\Github\\Tray Merge 2.0\\Tray Merge 2.0\\Tray Merge 2.0.csproj",
+      "projectUniqueName": "C:\\Users\\jborgen\\Documents\\Work\\Github\\Witron Login 2.0\\Witron Login 2.0\\Witron Login 2.0.csproj",
+      "projectName": "Witron Login 2.0",
+      "projectPath": "C:\\Users\\jborgen\\Documents\\Work\\Github\\Witron Login 2.0\\Witron Login 2.0\\Witron Login 2.0.csproj",
       "packagesPath": "C:\\Users\\jborgen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jborgen\\Documents\\Work\\Github\\Tray Merge 2.0\\Tray Merge 2.0\\obj\\",
+      "outputPath": "C:\\Users\\jborgen\\Documents\\Work\\Github\\Witron Login 2.0\\Witron Login 2.0\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jborgen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,6 +56,9 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
